@@ -8,7 +8,7 @@ while (response === 's') {
     var city = prompt("Qual é o nome da cidade visitada?");
     
     if (numberOfCities === 0) {
-        visitedCities = city;
+        visitedCities = "- " + city;
     } else {
         visitedCities += "\n- " + city;
     }
